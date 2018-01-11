@@ -68,7 +68,7 @@ static void printGeoJson(ostream &out, const vector<Coords> &coords) {
                 "                \"desc\": \"" << (*it).desc << "\"," << endl <<
                 "                \"links\": ["<< endl;
         out <<  "                     {" << endl;
-        out <<  "                        \"href\": \"" << (*it).links << "\"" << endl;
+        out <<  "                        \"href\": \"" << (*it).name << ".jpg\"" << endl;
         out <<  "                     }" << endl;
         out <<  "                ]" << endl;
         out <<  "            }," << endl  ;
