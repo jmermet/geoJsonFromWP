@@ -34,3 +34,5 @@
 # Binary and output files
 geoJson
 *.json
+
+.idea
